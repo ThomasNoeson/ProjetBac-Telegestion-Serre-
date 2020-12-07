@@ -1,0 +1,269 @@
+/* Feuille de Style générale reprenant la défintion des blocs utilisés pour la gestion de l'affichage du dernier TAG lu */
+﻿body 
+{
+ margin: 0px;
+ padding: 0px;
+ text-align: center ;  /* Pour IE6 */
+ background: #afc4ff url(../images/body.gif) repeat-x top;
+ font-family: times, sans-serif;
+ color: #103176;
+ font-size: 12px;
+ font-weight: normal;
+}
+/* Définitions générales */
+h1 
+{
+ font-size: 22px; 
+ margin:0 auto;
+}
+h2 
+{
+ font-size: 20px; 
+}
+h3 
+{
+ font-size: 16px; 
+}
+h4 
+{
+ font-size: 14px; 
+}
+h5 
+{
+ font-size: 14px; 
+}
+p,ul,li,td 
+{
+ color: black; 
+}
+a:link 
+{
+ color: #103176;
+ text-decoration: none;
+}
+a:visited 
+{
+ color: gray;
+}
+a:active 
+{
+ color:red;
+}
+a:hover 
+{
+ color: red;
+ text-decoration: none;
+}
+li
+{
+color: #103176;
+padding-left:20px;
+font-style:normal;
+list-style-type:none; 
+
+}
+table 
+{
+ border: medium solid #6495ed;
+ border-collapse: collapse;
+ width: 100%;
+}
+th 
+{
+ font-family: monospace;
+ border: thin solid #6495ed;
+ padding: 5px;
+ background-color: #D0E3FA;
+ background-image: url(sky.jpg);
+ text-align : center;
+ font-style:italic;
+}
+td 
+{
+ font-family: sans-serif;
+ border: thin solid #6495ed; 
+padding: 5px;
+ text-align: center;
+ background-color: #ffffff;
+}
+caption 
+{
+ font-family: sans-serif;
+}
+/****************************************************/
+/* Conteneur principal */
+
+div#ConteneurduSite
+ {
+ margin: 0 auto ;
+ width: 1000px;
+ }
+/* Entete du Site */
+div#entete 
+ {
+ width: 1000px;
+ height: 80px;
+ text-align: left ;
+ overflow:hidden; 
+ }
+#entete_gauche 
+ {
+ font-family: times, sans-serif;
+ color: #103176;
+ font-size: 20px;
+ width :150px;
+ margin-left: 5px;
+ float: left;
+ text-align: Center ;
+ }
+#entete_centre 
+ {
+ font-family: times, sans-serif;
+ font-weight: bold;
+ font-style: italic;
+ color: #103176;
+ font-size: 30px;
+ width : 615px;
+ float: left;
+ margin-left: 70px;
+ margin-top:30px;
+ text-align: center;
+ }
+#entete_droite 
+ {
+ font-family: times, sans-serif;
+ color: #103176;
+ font-size: 20px;
+ width :150px;
+ margin-left: 5px;
+ float: left;
+ text-align: Center ;
+ }
+/* Barre Horizontale */
+#Barre_Horizontale 
+ {
+ width: 1000px;
+ height: 20px;
+ margin-top: 5px;     
+ clear:both; 
+ overflow: auto;
+ }
+.Barre_Gauche 
+ {
+ width : 20px;     
+ height: 20px;
+ margin-left: 3px;
+ background: url(../images/Barre_BG165ab9_d9e2ec.gif); 
+ color : #6a95cf;
+ float : left; 
+ display: inline;        
+ }
+.Barre_CentreD 
+ {
+ width : 485px; 
+ height: 20px;
+ background: url(../images/Bleu165ab9_d9e2ec.gif) repeat-x ;
+ float : left; 
+ color: white;
+ display: inline; 
+ text-align : right; 
+ font-size: 12px; 
+ padding-top: 2px;
+ }
+.Barre_CentreG 
+ {
+ width : 468px; 
+ height: 20px;
+ background: url(../images/Bleu165ab9_d9e2ec.gif) repeat-x ; 
+ float : left; 
+ text-align: left; 
+ font-size: 12px; 
+ padding-top: 2px;
+ color: white;
+ display: inline; 
+ }
+.Barre_Droite 
+ {
+ width : 20px;
+ height: 20px;
+ background: url(../images/Barre_BD165ab9_d9e2ec.gif); 
+ color : #6a95cf;
+ float : left;
+ display: inline;
+ }
+ 
+/* Zone Principale */
+#ZonePrincipale  
+ {
+ background: #FFFFFF;
+ margin-top: 24px;
+ padding-top: 10px;
+ overflow:hidden;
+ width: 1000px;
+ border: 1px solid #103176; 
+ border-radius: 10px;
+ min-height:600px;
+ text-align:center;
+ font-family: times, sans-serif;
+ color: #103176;
+ font-size: 20px;
+ }
+#Pied_Page
+{
+ height:20px; 
+ margin-top:5px;
+ border-top:1px solid #103176;
+ text-align: center;
+ font-family: Arial;
+ color: #103176;
+ font-size: 14px;
+ font-style: italic;
+
+}
+/* Fenetre d'affichage de l'ampoule */
+#DivLampe
+{
+ width: 350px;
+ min-height: 200px;
+ margin: 0 auto;
+ margin-top:150px;
+ border: 1px solid #103176; 
+ border-radius: 10px;
+ 
+ text-align: center;
+ font-family: times, sans-serif;
+ color: #103176;
+ font-size: 20px;
+ font-weight: normal;
+}
+#ErreurCom
+{
+ width: 800px;
+ min-height: 60px;
+ margin-top:10px;
+ border: 1px solid #103176; 
+ border-radius: 10px;
+ padding-left: 10px;
+ padding-top: 10px;
+ text-align: left;
+
+}
+ display:none;
+}
+.EtatCom_0 /* Bloc affiché lors d'une requête à MySQL */
+{
+ 
+ display:inline;
+}
+﻿.AmpouleOn
+{
+display:block;
+position : absolute;
+}
+.AmpouleOff
+{
+display:none;
+position : absolute;
+}
+
+

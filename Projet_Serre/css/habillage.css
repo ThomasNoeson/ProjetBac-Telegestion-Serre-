@@ -1,0 +1,172 @@
+/* Feuille de style de base 
+   Réalisée par Pascal LUCAS
+   Mise à jour le 12 Octobre 2014
+ */
+html {
+	font-size: 20px;
+}
+body   {
+	background-color: #2c3e50;
+	margin: 0px;
+	padding: 0px;
+	text-align: center ;  /* Pour IE6 */
+	font-family: times, sans-serif;
+	font-size: 1em;
+}
+
+/* Style des balises usuelles */
+p,ul,li,td {	 
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	color: gray;
+}
+a:active {
+	color:red;
+}
+a:hover {
+	color: red;
+	text-decoration: none;
+}
+
+.rouge {
+	color : red;
+}
+.bleu {
+ color : #235F80;
+}
+.orange {
+ color:orange;
+}
+.vert {
+ color:green;
+}
+
+#conteneurSite {			/* Conteneur principal */
+	margin: 0 auto ;
+	width: 1000px;
+	border: 3px solid #34495e; 
+	/*background: url(../images/BG.jpg) repeat-y ;*/
+	/*color: #3E8040;*/
+	overflow:hidden; 
+	margin-top:10px;
+}
+
+#entete  { 				/* Entete du Site */ 
+	overflow:hidden;
+	color: #1abc9c;
+}
+#entete_gauche  {
+	width : 80px;
+	height: 138px;
+	margin-left: 5px;
+	float: left;
+	text-align: Center ;
+}
+#entete_centre  {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 2em; 
+	width : 680px;
+	float: left;
+	margin-left: 70px;
+	margin-top:30px;
+	text-align: center; 
+}
+
+#group_centre  {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.2em; 
+	/* width : 680px; */
+	/* float: left; */
+	/* margin-left: 150px; */
+	text-align: center; 
+}
+
+#group_projet  {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.5em; 
+	text-align: center; 
+}
+
+#entete_droite  {
+	width :100px;
+	margin-right: 5px;
+	float: left;
+	text-align: Center ;
+}
+#Barre_Horizontale   { 	/* Barre Horizontale */
+	width: 1000px;
+	height: 30px;
+	margin-top: 5px;     
+	clear:both; 
+	font-size: 0.8em;
+}
+.Barre_Gauche  {
+	width : 20px;     
+	height: 20px;
+	margin-left: 3px;
+	border-top: 9px solid #34495e; 
+	/* background: url(../images/Barre_BG165ab9_d9e2ec.gif);  */
+	color : #6a95cf;
+	float : left; 
+	display: inline;        
+}
+.Barre_CentreD  {
+	width : 485px; 
+	height: 20px;
+	border-top: 9px solid #34495e; 
+	/* background: url(../images/Bleu165ab9_d9e2ec.gif) repeat-x ; */
+	float : left; 
+	display: inline; 
+	text-align : right; 
+	padding-top: 2px;
+}
+.Barre_CentreG  {
+	width : 468px; 
+	height: 20px;
+	border-top: 9px solid #34495e; 
+	/* background: url(../images/Bleu165ab9_d9e2ec.gif) repeat-x ;  */
+	float : left; 
+	text-align: left; 
+	padding-top: 2px;
+	display: inline; 
+}
+.Barre_Droite  {
+	width : 20px;
+	height: 20px;
+	border-top: 9px solid #34495e; 
+	/* background: url(../images/Barre_BD165ab9_d9e2ec.gif);  */
+	color : #6a95cf;
+	float : left;
+	display: inline;
+}
+
+#ZonePrincipale  { 		/* Zone Principale */
+	margin-top: 5px;
+	overflow:hidden;
+	width: 100%;
+ /*border: 1px solid #6a95cf;*/
+ font-size:0.8em;
+ color: #1abc9c;
+}
+#Pied_Page {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 0.6em; 
+	border-top:3px solid #34495e;
+	padding-top:5px;
+	color: #1abc9c;
+}
+#Conteneur {
+	margin: 0 auto;
+	width:900px;
+	height:550px;
+	/*border: 1px solid #103176; */
+}
+
+
